@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: hsl(275, 100%, 97%);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.background-img {
+  width: 100vw;
+  height: 30.5vh;
+  background-image: url(../assets/images/background-pattern-desktop.svg);
+  position: sticky;
+  top: 0;
+}
+
+.app-container {
+  width: 41.5vw;
+  position: fixed;
+  top: 11.5vw;
+  border-radius: 20px;
+  background-color: hsl(0, 100%, 100%);
+  z-index: 100;
+}
+
+.faq-container {
+  padding: 42px 16px 42px 40px;
+}
+
+.faq-container img {
+  margin-right: 23px;
+}
+
+.faq-container h1 {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.faq-header {
+  display: flex;
+  margin-bottom: 38px;
+}
+
+.faq-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.question-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq .question-box {
+  margin-bottom: 33px;
+}
+
+.faq .question-box h2 {
+  font-size: 18px;
+  font-weight: 700;
+}/*# sourceMappingURL=styles.css.map */
